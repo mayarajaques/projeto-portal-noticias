@@ -1,0 +1,7 @@
+#featured{
+  img{ /*configurações das imagens*/
+    height: 100%; /*preenche todo o espaço, mas estica a imagem*/
+    object-fit: cover; /*faz a cobertura de todo o espaço que está sobrando*/
+    border-radius: 4px; /*arrendodamento de borda das imagens*/
+  }
+}

@@ -45,18 +45,16 @@ h1,h2,h3 { /*estou herdando do pai onde ele está dentro. no caso body*/
   color: inherit;
 }
 
+img{
+  max-width: 100% ; /*respeite a largura maxima de 100% relativo a caixa
+  que você está naquele momento*/
+}
 .container{
   max-width: 1280px;
   padding-inline: 32px ; /*eixo horizontal*/
   margin-inline: auto;  /*eixo horizontal*/
 }
 
-/*utility first: quando tem uma classe que vai fazer apenas uma coisa*/
-.grid{
-  display: grid;
-}
-
-/*transformar o grid em colunas*/
-.grid-flow-col{
-grid-auto-flow: column;
+main{
+  margin-top: 40px ; /*margin em cima das 5 imagens*/
 }

@@ -1,0 +1,18 @@
+
+/*utility first: quando tem uma classe que vai fazer apenas uma coisa*/
+.grid{
+  display: grid;
+}
+
+/*transformar o grid em colunas*/
+.grid-flow-col{
+grid-auto-flow: column;
+}
+
+.grid-cols-2{ /*grid das 4 imagens menores*/
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{ /*espaço entre as imagens*/
+  gap: 16px;
+}
