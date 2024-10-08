@@ -22,5 +22,5 @@ justify-self: end;
   padding-block: 14px; /*padding vertical*/
   border: solid 1px var(--stroke-color);
   border-inline: none; /*retirando as bordas laterais do menu*/
-
+justify-content: space-between; /*espaço entre os itens*/
 }
