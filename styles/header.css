@@ -1,0 +1,26 @@
+#primary{ /*cabeçalho 1*/
+  padding-block: 20px ; /*pegando o eixo vertical (em cima e baixo)*/
+
+div{ /*alinhamento dos itens do header*/
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+  /*nesting css*/
+  div:nth-child(2){ /*pegando o segundo item -logo*/
+margin-inline: auto ; /*inline é o eixo horizontal (esquerda e direita)*/
+  }
+
+div:nth-child(3){ /*pegando o terceiro item 'buscar'*/
+justify-self: end;
+}
+
+}
+
+#secondary{ /*cabeçalho 2*/
+  padding-block: 14px; /*padding vertical*/
+  border: solid 1px var(--stroke-color);
+  border-inline: none; /*retirando as bordas laterais do menu*/
+
+}

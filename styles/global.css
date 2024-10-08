@@ -44,3 +44,19 @@ a:hover{ /*quando passa o mouse em cima do link*/
 h1,h2,h3 { /*estou herdando do pai onde ele está dentro. no caso body*/
   color: inherit;
 }
+
+.container{
+  max-width: 1280px;
+  padding-inline: 32px ; /*eixo horizontal*/
+  margin-inline: auto;  /*eixo horizontal*/
+}
+
+/*utility first: quando tem uma classe que vai fazer apenas uma coisa*/
+.grid{
+  display: grid;
+}
+
+/*transformar o grid em colunas*/
+.grid-flow-col{
+grid-auto-flow: column;
+}
