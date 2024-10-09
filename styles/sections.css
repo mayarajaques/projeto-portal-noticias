@@ -24,4 +24,14 @@ background: linear-gradient(
   #020617 100%
 ); /*aplicar o gradiente na imagem*/
 }
+figcaption{
+  position: absolute; /*texto em cima das imagens*/
+  bottom: 0; /*coloca abaixo*/
+  padding: 24px; /*espaço entre ele*/
+  
+  h2{
+    margin-top: 8px;
+  }
+}
+
 }

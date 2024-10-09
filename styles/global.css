@@ -58,3 +58,16 @@ img{
 main{
   margin-top: 40px ; /*margin em cima das 5 imagens*/
 }
+
+/*classe para as tags da noticias*/
+.content-tag{
+  display: inline-block; /* mantem o tamanho do texto*/
+  background-color: var(--brand-color-dark);
+  padding: 4px 8px ;
+  border-radius: 4px;
+  font: 500 10px/1.2 var(--font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-color-primary);
+  box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251); /*sombra da caixa 'robotica'*/
+}
