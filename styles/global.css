@@ -57,6 +57,7 @@ img{
 
 main{
   margin-top: 40px ; /*margin em cima das 5 imagens*/
+  gap: 80px; /*gap para separar a seção das mais lidas da semana*/
 }
 
 /*classe para as tags da noticias*/
