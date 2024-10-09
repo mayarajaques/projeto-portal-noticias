@@ -17,6 +17,10 @@ grid-auto-flow: column;
   gap: 16px;
 }
 
+.gap-32{
+  gap: 32px; /*separação das colunnas destaques de IA e viu isso aqui*/
+}
+
 /*classes de fontes para aplicar*/
 .text-2xl{
   font: var(--h1);

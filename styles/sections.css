@@ -2,6 +2,7 @@ section header {
   /*todo elemento que tem section e header- mais lidas da semana e ver tudo*/
   border-top: 1px solid var(--stroke-color);
   padding-block: 12px 24px;
+  /*padding no eixo vertical*/
   font: var(--text-span);
 
 
@@ -29,6 +30,7 @@ section header {
 
 
 #featured {
+  grid-area: featured; /*grid superior*/
   img {
     /*configurações das imagens*/
     height: 100%;
@@ -87,6 +89,7 @@ section header {
 
 /*definindo as mais lidas da semaana*/
 #weekly {
+  grid-area: weekly;
 
   &>div {
     /*primeiro nivel de div*/
@@ -102,14 +105,46 @@ section header {
     position: relative;
 
     /*ajustando as tags*/
-    position: absolute;
-    top: 8px;
-    left: 8px;
-  }
+    .content-tag {
 
-  p {
-    margin-top: 8px;
-    font-weight: 800;
-  }
+      position: absolute;
+      top: 8px;
+      left: 8px;
+    }
 
+
+    p {
+      margin-top: 8px;
+      font-weight: 800;
+    }
+  }
+}
+
+#ai{
+  grid-area: ai;
+  img{
+    width: 176px;
+    aspect-ratio: 1/1; /*imagem fica quadrada*/
+    object-fit: cover; /*cobrir toda area da imagem*/
+  }
+  h3{
+    margin-block: 8px 4px; /*8 em cima e 4 em baixo*/
+  }
+}
+aside{
+  grid-area: aside ;
+  
+}
+
+#more{
+  margin-top: 32px; /*espaço entre ver tudo e imagem*/
+  h3{
+    margin-top: 8px; /*margin no textinho da direita*/
+  }
+  img{
+    width: 72px; /*quadrado da imagem*/
+
+aspect-ratio: 1/1; /*deixar quadrado perfeito*/;
+object-fit: cover;
+  }
 }

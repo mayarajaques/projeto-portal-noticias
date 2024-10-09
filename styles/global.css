@@ -21,7 +21,7 @@
 --h3: 800 14px/140% var(--font-family);
 --text-span: 600 14px/145% var(--font-family);
 --text: 400 16px/140% var(--font-family); /*padrao*/
---text-sm: 400 14px/160 var(--font-family);
+--text-sm: 400 14px/160% var(--font-family);
 
 
 }
@@ -56,8 +56,15 @@ img{
 }
 
 main{
-  margin-top: 40px ; /*margin em cima das 5 imagens*/
-  gap: 80px; /*gap para separar a seção das mais lidas da semana*/
+  margin-block: 40px ; /*margin em cima e embaixo*/
+  row-gap: 80px; /*gap para separar a seção das mais lidas da semana*/
+  column-gap: 32px;
+
+  grid-template-columns: 2fr 1.4fr;/*colocando medidas em cada coluna*/
+  grid-template-areas: /*definindo os grid*/
+  "featured featured"
+  "weekly weekly"
+  "ai aside" ;
 }
 
 /*classe para as tags da noticias*/
