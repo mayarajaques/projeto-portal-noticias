@@ -33,7 +33,7 @@ Esta página traz um perfil de uma viajante Isabela Torres, onde compartilha fot
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/cUS053ZLUSi9jcfzVg94su/Perfil-de-viagens-(Community)?node-id=3-376&node-type=canvas&t=NOJM94MGc2OJl5Ts-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1362166020452569562/portal-de-noticias). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 
 ---
