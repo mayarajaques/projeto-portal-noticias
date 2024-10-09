@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Esta página traz um perfil de uma viajante Isabela Torres, onde compartilha fotos de suas últimas viagens pelo mundo.🌍
+Esta página traz notícias sobre o mundo da tecnologia.
 
 ## 🔖 Layout
 
