@@ -31,9 +31,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esta página traz notícias sobre o mundo da tecnologia.
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1362166020452569562/portal-de-noticias). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 
 ---
